@@ -1,0 +1,39 @@
+h1
+h2 {
+
+}
+
+.bg-image {
+    background-size: cover;
+    background-position: center;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.bg-home{
+    background-color: rgba(0,0,0,0.3);
+    background-blend-mode: overlay;
+}
+
+
+
+
+@media screen and  (max-width: 767px) {
+    .bg-image{
+        background-image: url('../pictures/hero-bg-mobile.jpg');
+       
+    }        
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .bg-image{
+        background-image: url('../pictures/hero-bg-tablette.jpg');
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .bg-image{
+        background-image: url('../pictures/hero-bg.jpg');
+    }        
+}
