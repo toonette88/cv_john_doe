@@ -12,7 +12,7 @@ import banner from "../assets/pictures/banner.jpg";
 
 const Blog = () =>  {
     return (
-       <main>
+       <main className="container">
             <img src={banner} alt="image bleue avec des trainées blanches" />
             <Title title="Blog" projectdescription="Retrouver ici quelques articles sur le développement web"/>
             <div className="container">

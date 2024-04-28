@@ -9,7 +9,7 @@ import User from "../Components/User";
 const Home = () => {
   return (
     <main>
-      <div className="bg-image bg-home d-flex align-items-center justify-content-center text-center text-light">
+      <div className="container bg-image bg-home d-flex align-items-center justify-content-center text-center text-light">
         <div>
           <h1> Bonjour, je suis {User.firstName} {User.lastName}</h1>
           <h2>Développeur web full stack</h2>

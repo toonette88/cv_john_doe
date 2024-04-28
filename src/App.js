@@ -8,6 +8,7 @@ import Realisations from "./pages/Realisations";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
+import Footer from "./Components/Footer";
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/mentions" element={<Mentions />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
