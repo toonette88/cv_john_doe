@@ -13,7 +13,7 @@ const Realisation = () =>  {
        <main>
             <img src={banner} alt="image bleue avec des trainées blanches" />
             <Title title="Portfolio" projectdescription="Voici quelques-unes de mes réalisations"/>
-            <div className="container-fluid">
+            <div className="container">
               <div className="row">
                 <Card 
                 image={food}
