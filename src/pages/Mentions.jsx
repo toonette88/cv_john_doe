@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDom from "react-dom";
 import Title from "../Components/Title";
 import User from "../Components/User";
 import { Link } from "react-router-dom";
@@ -10,8 +9,8 @@ import {faLocationDot, faMobileScreenButton,faEnvelope, faGlobe } from "@fortawe
 
 const Mentions = () => {
   return (
-        <main>
-            <img src={banner} alt="image bleue avec des trainées blanches" />
+        <main className="container">
+            <img src={banner} alt="image bleue avec des trainées blanches" className="img-fluid"/>
             <Title title="Mentions légales"/>
             <div className="accordion" id="accordionExample">
             <div className="accordion-item">

@@ -9,7 +9,7 @@ const NavBar = () => {
         class="navbar navbar-dark navbar-expand-lg bg-dark border-bottom border-body text-light text-uppercase fixed-top "
         id="mainNav"
       >
-        <div class="container-fluid">
+        <div class="container">
           <Link className="navbar-brand text-light text-uppercase" to="/">
             {User.firstName} {User.lastName}
           </Link>
