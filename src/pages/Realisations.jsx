@@ -1,5 +1,4 @@
 import React from "react";
-import "../assets/styles/home.css"
 import Card from "../Components/Card";
 import Title from "../Components/Title";
 
@@ -14,32 +13,36 @@ const Realisation = () =>  {
        <main>
             <img src={banner} alt="image bleue avec des trainées blanches" />
             <Title title="Portfolio" projectdescription="Voici quelques-unes de mes réalisations"/>
-            <div className="row row-cols-1 row-cols-md-3 g-4 m-5">
+            <div className="container-fluid">
+              <div className="row">
                 <Card 
                 image={food}
                 imgdescription="Image de légumes"
                 title="Fresh Food"
                 projects="Réalisation d'un site avec commande en ligne"
-                techno="PHP et MySQL"
+                button="Voir"
+                footer="PHP et MySQL"
                 />
                   <Card 
                 image={restaurant}
                 imgdescription="Image de sushis"
                 title="Restaurant Akira"
                 projects="Réalisation d'un site vitrine"
-                techno="Wordpress"
+                button="Voir"
+                footer="Wordpress"
                 />
                   <Card 
                 image={zen}
                 imgdescription="Image de légumes"
                 title="Espace bien-être"
                 projects="Réalisation d'un site vitrine pour un praticien bien-être"
-                techno="HTML/CSS"
+                button="Voir"
+                footer="HTML/CSS"
                 />
-
+               </div>
             </div>
         </main>
     )
 }
 
-export default Realisation
+export default Realisation;
