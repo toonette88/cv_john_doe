@@ -15,8 +15,8 @@ const Blog = () =>  {
        <main>
             <img src={banner} alt="image bleue avec des trainées blanches" />
             <Title title="Blog" projectdescription="Retrouver ici quelques articles sur le développement web"/>
-            <div>
-                <div className="row">
+            <div className="container">
+                <div className="row text-start ">
                     <Card 
                     image={blog1}
                     imgdescription="ligne de code"
