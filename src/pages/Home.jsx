@@ -1,6 +1,6 @@
 import React from "react";
 import Skill from "../Components/Skill";
-import "../assets/styles/home.css"
+import "../assets/styles/home.css";
 
 import image2 from "../assets/pictures/john-doe-about.jpg";
 import User from "../Components/User";
