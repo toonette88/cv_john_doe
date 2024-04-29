@@ -1,6 +1,11 @@
 .App {
   font-family: "Nunito Sans", sans-serif;
   text-align: center;
+  background-color: #EEE;
+}
+
+text {
+  color: #444;
 }
 
 h1{
