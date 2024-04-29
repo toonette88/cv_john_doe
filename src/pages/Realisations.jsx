@@ -12,7 +12,7 @@ const Realisation = () =>  {
     return (
        <main>
             <img src={banner} alt="image bleue avec des trainées blanches" className="img-fluid" />
-            <Title title="Portfolio" projectdescription="Voici quelques-unes de mes réalisations"/>
+            <Title title="Portfolio" subTitle="Voici quelques-unes de mes réalisations"/>
             <div className="container">
               <div className="row">
                 <Card 
