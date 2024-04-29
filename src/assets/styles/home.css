@@ -8,6 +8,7 @@ a {
     background-color: rgba(255, 255, 255, 0.8);
   }
   
+
 .bg-image {
     background-size: cover;
     background-position: center;
@@ -41,4 +42,13 @@ a {
     .bg-image{
         background-image: url('../pictures/hero-bg.jpg');
     }        
+}
+
+.icon {
+    color: #0d6efd ;
+}
+
+.dotted{
+    text-decoration: underline dotted;
+    text-transform: uppercase;
 }
