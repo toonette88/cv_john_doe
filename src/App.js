@@ -11,7 +11,6 @@ import Contact from "./pages/Contact";
 import Mentions from "./pages/Mentions";
 import Footer from "./Components/Footer";
 
-
 export default function App() {
   return (
     <div className="App">

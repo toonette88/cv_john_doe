@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "../assets/styles/home.css";
 import User from "../Components/User";
+import Up from "../Components/Up";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
@@ -119,18 +120,22 @@ const Footer = () => {
           <h5>Mes dernièrs articles</h5>
           <ul>
             <li>
-              <Link to="#">Coder son site en HTML/CSS</Link>
+                <Arrow />
+                <Link to="#">Coder son site en HTML/CSS</Link>
             </li>
             <li>
-              <Link to="#">Vendre ses produits sur le web</Link>
+                <Arrow />
+                <Link to="#">Vendre ses produits sur le web</Link>
             </li>
             <li>
-              <Link to="#">Se positionner sur Google</Link>
+                <Arrow />
+                <Link to="#">Se positionner sur Google</Link>
             </li>
           </ul>
         </section>
       </div>
       <div className="bg-dark text-light p-3">
+         <Up/>
         <small>
           &copy; Designed by {User.firstName} {User.lastName}
         </small>
