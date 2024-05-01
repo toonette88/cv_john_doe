@@ -49,6 +49,7 @@ const Contact = () => {
                                 <label for="Textarea" className="form-label"></label>
                                 <textarea className="form-control" id="Textarea" rows="3"placeholder="Votre message"></textarea>
                             </div>
+                            <button type="submit" className="btn btn-primary col-4 mx-auto">Envoyer</button>
                         </form>
 
                     </div>
