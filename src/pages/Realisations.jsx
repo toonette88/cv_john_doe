@@ -21,7 +21,7 @@ const Realisation = () =>  {
                 title="Fresh Food"
                 projects="Réalisation d'un site avec commande en ligne"
                 button="Voir"
-                footer="PHP et MySQL"
+                footer="Réalisé avec PHP et MySQL"
                 />
                   <Card 
                 image={restaurant}
@@ -29,7 +29,7 @@ const Realisation = () =>  {
                 title="Restaurant Akira"
                 projects="Réalisation d'un site vitrine"
                 button="Voir"
-                footer="Wordpress"
+                footer="Réalisé avec Wordpress"
                 />
                   <Card 
                 image={zen}
@@ -37,7 +37,7 @@ const Realisation = () =>  {
                 title="Espace bien-être"
                 projects="Réalisation d'un site vitrine pour un praticien bien-être"
                 button="Voir"
-                footer="HTML/CSS"
+                footer="Réalisé en HTML/CSS"
                 />
                </div>
             </div>

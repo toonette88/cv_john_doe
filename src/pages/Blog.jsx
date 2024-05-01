@@ -12,8 +12,8 @@ import banner from "../assets/pictures/banner.jpg";
 
 const Blog = () =>  {
     return (
-       <main className="container">
-            <img src={banner} alt="image bleue avec des trainées blanches" />
+       <main>
+            <img src={banner} alt="image bleue avec des trainées blanches" className="img-fluid"/>
             <Title title="Blog" subTitle="Retrouver ici quelques articles sur le développement web"/>
             <div className="container">
                 <div className="row text-start ">
@@ -65,7 +65,6 @@ const Blog = () =>  {
                     button="Lire la suite"
                     footer="Publié le 12 juillet 2022"
                     />
-                
                 </div>
             </div>
         </main>
